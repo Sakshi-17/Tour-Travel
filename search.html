@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="bootstrap/js/data.json">
+    <title>Florence Tour &amp; Travels</title>   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  #result {
+   color: blueviolet;      
+   position: absolute;
+   width: 100%;
+   max-width:870px;
+   cursor: pointer;
+   overflow-y: auto;
+   max-height: 400px;
+   box-sizing: border-box;
+   z-index: 1001;
+  }
+  .link-class:hover{
+   background-color:#f1f1f1;
+  }
+  </style>
+    
+</head>
+<body>
+    
+    <!-- Main Navbar -->
+    <div id="header">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-teal">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+               <i class="fa fa-plane-departure"></i> Florence Tour &amp; Travels</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#travel-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="travel-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#search" class="nav-link">Explore</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="bookings.html" class="nav-link">Bookings</a>
+                    </li>
+                    
+                    <li class="nav-item px-3">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+    
+    <section id="gallery" class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/gallery_1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_8.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="images/gallery_5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_7.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_4.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+             </div>
+    </section>    
+    <!-- Search Section -->
+    <section id="search" class="p-3 bg-teal text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="display-4">Start Exploring!</h5>
+                    <p class="lead">Pack your bags and hop on Exciting Adventures with Florence Tour &amp; Travels! Search for over 100 tourist spots around India and pick the one that most appeals to you and leave the rest to us!</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                    <input type="text" name="Search" class="form-control" id="search" placeholder="Search Destination"/>
+                               </div>
+                            <ul class="list-group" id="result"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+     <section id="gallery" class="p-3">
+        <div class="container">
+    <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="images/gallery_5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_7.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_8.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="images/gallery_9.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_10.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_11.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/gallery_12.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            </div>
+    </section>
+    
+      <!-- Main Footer -->
+    <footer class="p-3 mt-3 bg-teal text-white text-center">
+        <!-- Social Icons -->
+    <section class="p-3 bg-teal text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Follow Us!</h3>
+                    <p>Connect with us on our Socials for updates and more!</p>
+                    <a href="https://www.facebook.com/"><i style="color: darkgray" class="fab fa-facebook-square fa-4x m-3"></i></a>
+                    <a href="https://www.youtube.com/"><i style="color: darkgray" class="fab fa-youtube fa-4x m-3"></i></a>
+                    <a href="https://twitter.com/"><i style="color: darkgray" class="fab fa-twitter fa-4x m-3"></i></a>
+                    <a href="https://myaccount.google.com/"><i style="color: darkgray" class="fab fa-google-plus-square fa-4x m-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Copyright &copy; 2021 , Florence Tour &amp;Travels Pvt Ltd</h3>
+                    <h6>All Rights Reserved</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Bootstrap Js files -->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/jquery/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+ $.ajaxSetup({ cache: false });
+ $('#search').keyup(function(){
+  $('#result').html('');
+  $('#state').val('');
+  var searchField = $('#search').val();
+  var expression = new RegExp(searchField, "i");
+  $.getJSON('data.json', function(data) {
+   $.each(data, function(key, value){
+    if (value.name.search(expression) != -1 || value.price.search(expression) != -1)
+    {
+     $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.price+'</span></li>');
+    }
+   });   
+  });
+ });
+ 
+ $('#result').on('click', 'li', function() {
+  var click_text = $(this).text().split('|');
+  $('#search').val($.trim(click_text[0]));
+  $("#result").html('');
+     
+ });
+});
+</script>

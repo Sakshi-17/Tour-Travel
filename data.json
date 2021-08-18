@@ -1,0 +1,78 @@
+[
+  {
+    "name":"Agra",
+    "image": "https://content.r9cdn.net/rimg/dimg/f5/e5/a45c961d-city-29118-164803dbdc7.jpg?width=1750&height=1000&xhint=1708&yhint=561&crop=true",
+    "price":"Rs 20000"
+  },
+  {
+    "name":"Agra",
+    "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/11/54.jpg",
+    "price":"Rs 10000"
+  },
+  {
+    "name":"Agra",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jahangiri_Mahal-Red_Fort-Agra-India5356.JPG/556px-Jahangiri_Mahal-Red_Fort-Agra-India5356.JPG",
+    "price":"Rs 15000"
+  },
+  {
+    "name":"Delhi",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2019/12/4408733256c94ddc9c0bee4d17c5738b_18.jpeg?resize=770%2C513",
+    "price":"Rs 25000"
+  },
+  {
+    "name":"Delhi",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delhi-lotus-temple-1486142341.jpg",
+    "price":"Rs 20000"
+  },
+  {
+    "name":"Delhi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rashtrapati_bhawan.jpg",
+    "price":"Rs 21000"
+  },
+  {
+    "name":"Mumbai",
+    "image": "https://www.india-briefing.com/news/wp-content/uploads/2013/07/India-Briefing-Economy-of-Mumbai-Indias-Major-Commercial-Hub.jpg",
+    "price":"Rs 30000"
+  },
+  {
+    "name":"Mumbai",
+    "image": "https://media.cntraveler.com/photos/58e3eb2d03ca992cb6a9cc29/16:9/w_2560%2Cc_limit/MAG-SEPT16-mumbai-brian-pineda.jpg",
+    "price":"Rs 25000"
+  },
+  {
+    "name":"Mumbai",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mumbai_skyline_BWSL.jpg",
+    "price":"Rs 35000"
+  },
+  {
+    "name":"Jaipur",
+    "image": "https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2018/06/Historical-Sites-in-Jaipur.jpg",
+    "price":"Rs 27000"
+  },
+  {
+    "name":"Jaipur",
+    "image": "https://res.cloudinary.com/enchanting/f_auto,q_70/et-web/2015/05/Enchanting-Travels-India-Tours-Jaipur.jpg",
+    "price":"Rs 30000"
+  },
+  {
+    "name":"Jaipur",
+    "image": "https://static.toiimg.com/photo/79734569/Amber-Fort.jpg?width=748&resize=4",
+    "price":"Rs 200000"
+  },
+  {
+    "name":"Shimla",
+    "image": "https://lp-cms-production.imgix.net/2019-06/GettyImages-465018978_master.jpg?auto=format&fit=crop&ixlib=react-8.6.4&h=520&w=1312",
+    "price":"Rs 18000"
+  },
+  {
+    "name":"Shimla",
+    "image": "https://cdn1.goibibo.com/voy_ing/t_fs/himachal-pradesh-shimla-147616947938o.jpeg",
+    "price":"Rs 25000"
+  },
+  {
+    "name":"Shimla",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKITFf3QrTqdnxXz4faL4-4TX5Ze-c5s5mA&usqp=CAU",
+    "price":"Rs 20000"
+  }
+  
+]
