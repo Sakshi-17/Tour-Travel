@@ -143,8 +143,7 @@ padding: 1%;
 	color:#FFFFFF;
 	font-size:18px;
 	font-weight:bold;
-	background-image: linear-gradient( #df89b5, #bfd9fe );
-}
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 .pricing_table_wdg ul li:nth-child(2) { 
 	background:#fbfbfb;
 }
@@ -166,5 +165,5 @@ padding: 1%;
 	border:1px solid #c4cbcc;
 	padding:10px;
 	margin:5px 0;
-	background-image: linear-gradient( #df89b5, #bfd9fe); /* Chrome10+,Safari5.1+ */
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); /* Chrome10+,Safari5.1+ */
 }
