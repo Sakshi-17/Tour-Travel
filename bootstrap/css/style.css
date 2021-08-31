@@ -150,6 +150,7 @@ padding: 1%;
 	font-size:18px;
 	font-weight:bold;
 	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}	
 .pricing_table_wdg ul li:nth-child(2) { 
 	background:#fbfbfb;
 }
